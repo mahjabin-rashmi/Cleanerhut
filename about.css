@@ -121,7 +121,7 @@
 /* backgroung img */
 
 .background_img {
-    background-image: url('pic/slide1.jpeg');
+    background-image: url('pic/about\ cleaning.webp');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -198,4 +198,32 @@
     margin-right: auto;
     width: 40%;
     margin-top: 15px;
+}
+
+
+/* footer */
+
+.footer {
+    background-color: #DFF1F7;
+    height: 260px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.copyright p {
+    text-align: center;
+    margin-top: -50px;
+}
+
+.cleanerhut ul {
+    list-style: none;
+    line-height: 30px;
+}
+
+.cleanerhut h4 {
+    padding-bottom: 10px;
+    color: #0C94B3;
+    font-size: 18px;
 }
