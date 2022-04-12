@@ -446,7 +446,7 @@ p.bottom {
 
 .relax {
     padding-top: 90px;
-    padding-bottom: 40px;
+    padding-bottom: 80px;
 }
 
 .relax h2 {
@@ -465,4 +465,32 @@ p.bottom {
     position: relative;
     left: 640px;
     margin-top: 15px;
+}
+
+
+/* footer */
+
+.footer {
+    background-color: #DFF1F7;
+    height: 260px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.copyright p {
+    text-align: center;
+    margin-top: -50px;
+}
+
+.cleanerhut ul {
+    list-style: none;
+    line-height: 30px;
+}
+
+.cleanerhut h4 {
+    padding-bottom: 10px;
+    color: #0C94B3;
+    font-size: 18px;
 }
